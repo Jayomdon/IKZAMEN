@@ -11,7 +11,7 @@ int main() {
 	printf("Return x: ");
 	scanf("%d", &x);
 
-	y = sqrt(pow(x,2) + pow(x,2));
+	y = (sqrt(pow(x,2) + pow(x,2))) / 2;
 	
 	printf("Result: %f", y);
 }
